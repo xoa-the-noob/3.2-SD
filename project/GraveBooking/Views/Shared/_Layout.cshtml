@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    @Styles.Render("~/Content/css")
+
+</head>
+<body>
+
+    <div class="sticky" style="background:gainsboro;border-bottom:thin;border-bottom-color:black">
+        <nav class="navbar navbar-expand-md  mt-2">
+            <div class="col-md-6">
+                <div class="intro" style="background:gainsboro;color:darkslategray;font-size:35px;margin:5px 5px 5px 5px;font-weight: bold;">
+                    <p>
+                        GravePlot Booking Website
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <ul>
+                    <style>
+                        nav ul li a.active,nav ul li a:hover {
+                            color:white;
+                            background: gray;
+                            transition: 0.5s;
+                            text-decoration: none;
+                        }
+                    </style>
+                    <li style="display: inline-block; line-height: 80px; padding: 0; margin: 0 5px; text-decoration: none; list-style: none; box-sizing: border-box;"><a style="color:darkslategray;font-size:17px;padding:7px 13px;border-radius:3px;text-transform:uppercase; " href="@Url.Action("viewGravePost", "viewGrave")">Home</a></li>
+                    <li style="display: inline-block; line-height: 80px; padding: 0; margin: 0 5px; text-decoration: none; list-style: none; box-sizing: border-box;"><a style="color:darkslategray;font-size:17px;padding:7px 13px;border-radius:3px;text-transform:uppercase;" href="@Url.Action("Contact", "Home")">Contact</a></li>
+                    <li style="display: inline-block; line-height: 80px; padding: 0; margin: 0 5px; text-decoration: none; list-style: none; box-sizing: border-box;"><a style="color:darkslategray;font-size:17px;padding:7px 13px;border-radius:3px;text-transform:uppercase;" href="@Url.Action("About", "Home")">About Us</a></li>
+                   
+                    @if (Session["admin"] != null)
+                    {
+                        <li style="display: inline-block; line-height: 80px; padding: 0; margin: 0 5px; text-decoration: none; list-style: none; box-sizing: border-box;"><a style="color:darkslategray;font-size:17px;padding:7px 13px;border-radius:3px;text-transform:uppercase; " href="@Url.Action("adminProfile", "viewGrave")">Menu</a></li>
+                        <li style="display: inline-block; line-height: 80px; padding: 0; margin: 0 5px; text-decoration: none; list-style: none; box-sizing: border-box;"><a style="color:darkslategray;font-size:17px;padding:7px 13px;border-radius:3px;text-transform:uppercase; " href="@Url.Action("adminLogout", "Adminauthentication")">Sign Out</a></li>
+                    }
+
+                    else if (Session["Users"] != null)
+                    {
+                        <li style="display: inline-block; line-height: 80px; padding: 0; margin: 0 5px; text-decoration: none; list-style: none; box-sizing: border-box;"><a style="color:darkslategray;font-size:17px;padding:7px 13px;border-radius:3px;text-transform:uppercase; " href="@Url.Action("UserProfile", "Home")">Menu</a></li>
+
+                        <li style="display: inline-block; line-height: 80px; padding: 0; margin: 0 5px; text-decoration: none; list-style: none; box-sizing: border-box;"><a style="color:darkslategray;font-size:17px;padding:7px 13px;border-radius:3px;text-transform:uppercase; " href="@Url.Action("Logout", "Authentication")">Sign Out</a></li>
+
+                    }
+                    else
+                    {
+                        <li style="display: inline-block; line-height: 80px; padding: 0; margin: 0 5px; text-decoration: none; list-style: none; box-sizing: border-box;"><a style="color:darkslategray;font-size:17px;padding:7px 13px;border-radius:3px;text-transform:uppercase;" href="@Url.Action("LoginAs", "Home")">Sign In</a></li>
+                    }
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+
+
+    @RenderBody()
+
+
+    <footer class="page-footer bg-dark mt-5">
+        &nbsp;
+
+        <div class="container text-center text-md-left mt-5">
+            <div class="row">
+                <div class="col-md-3 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold" style="color:lightblue;">About Us</h6>
+                    &nbsp;
+                    <p class="text-white"><a class="text-white" href="" style="text-decoration: none;">Privacy Policy</a></p>
+                    <p class="text-white"><a class="text-white" href="" style="text-decoration: none;">Cookie Policy</a></p>
+                    <p class="text-white"><a class="text-white" href="" style="text-decoration: none;">Terms & Condtions</a></p>
+                </div>
+
+                <div class="col-md-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold" style="color:lightblue;">Address</h6>
+                    &nbsp;
+                    <p class="mt-2 text-white">#Plot 23, #Block D, Road 12, Purbachol, Dhaka</p>
+
+                </div>
+                <div class="col-md-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold" style="color:lightblue;">Contact</h6>
+                    &nbsp;
+                    <p class="text-white"><a class="text-white" href="" style="text-decoration: none;">+880 8734 986</a></p>
+                    <p class="text-white"><a class="text-white" href="" style="text-decoration: none;">+880 3458 653</a></p>
+
+                </div>
+                <div class="col-md-3 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold" style="color:lightblue;">Follow Us</h6>
+                    &nbsp;
+                    <p class="text-white"><a class="text-white" href="" style="text-decoration: none;">www.graveplot.7.com/page/097654456</a></p>
+                    <p class="text-white"><a class="text-white" href="" style="text-decoration: none;">https://grave_plot_77</a></p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-copyright text-center text-white py-3 mr-3">
+            <p class="h6">&copy;Copyright <a class="text-white font-weight-bold" href="#">GravePlot Booking Website</a></p>
+            <p>Designed By tamanna, muniya & tahiya</p>
+
+        </div>
+
+
+    </footer>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/popper")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+
+</body>
+</html>

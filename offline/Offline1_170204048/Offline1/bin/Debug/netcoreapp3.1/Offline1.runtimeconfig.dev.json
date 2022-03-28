@@ -1,0 +1,9 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\EDC-SEIP\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\EDC-SEIP\\.nuget\\packages",
+      "C:\\Microsoft\\Xamarin\\NuGet"
+    ]
+  }
+}

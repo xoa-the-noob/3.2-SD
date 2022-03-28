@@ -1,0 +1,32 @@
+C:\Users\EDC-SEIP\source\repos\Offline1\Offline1\bin\Debug\netcoreapp3.1\Offline1.exe
+C:\Users\EDC-SEIP\source\repos\Offline1\Offline1\bin\Debug\netcoreapp3.1\Offline1.deps.json
+C:\Users\EDC-SEIP\source\repos\Offline1\Offline1\bin\Debug\netcoreapp3.1\Offline1.runtimeconfig.json
+C:\Users\EDC-SEIP\source\repos\Offline1\Offline1\bin\Debug\netcoreapp3.1\Offline1.runtimeconfig.dev.json
+C:\Users\EDC-SEIP\source\repos\Offline1\Offline1\bin\Debug\netcoreapp3.1\Offline1.dll
+C:\Users\EDC-SEIP\source\repos\Offline1\Offline1\bin\Debug\netcoreapp3.1\Offline1.pdb
+C:\Users\EDC-SEIP\source\repos\Offline1\Offline1\obj\Debug\netcoreapp3.1\Offline1.AssemblyInfoInputs.cache
+C:\Users\EDC-SEIP\source\repos\Offline1\Offline1\obj\Debug\netcoreapp3.1\Offline1.AssemblyInfo.cs
+C:\Users\EDC-SEIP\source\repos\Offline1\Offline1\obj\Debug\netcoreapp3.1\Offline1.csproj.CoreCompileInputs.cache
+C:\Users\EDC-SEIP\source\repos\Offline1\Offline1\obj\Debug\netcoreapp3.1\Offline1.dll
+C:\Users\EDC-SEIP\source\repos\Offline1\Offline1\obj\Debug\netcoreapp3.1\Offline1.pdb
+C:\Users\EDC-SEIP\source\repos\Offline1\Offline1\obj\Debug\netcoreapp3.1\Offline1.genruntimeconfig.cache
+C:\Users\EDC-SEIP\source\repos\Offline1\Offline1\obj\Debug\netcoreapp3.1\Offline1.csprojAssemblyReference.cache
+C:\Users\EDC-SEIP\source\repos\Offline1\Offline1\bin\Debug\netcoreapp3.1\DocumentFormat.OpenXml.dll
+C:\Users\EDC-SEIP\source\repos\Offline1\Offline1\bin\Debug\netcoreapp3.1\System.IO.Packaging.dll
+C:\Users\EDC-SEIP\source\repos\Offline1\Offline1\obj\Debug\netcoreapp3.1\Offline1.csproj.CopyComplete
+C:\Users\EDC-SEIP\Desktop\3.2 lab\SD\offline\Offline1\Offline1\bin\Debug\netcoreapp3.1\Offline1.exe
+C:\Users\EDC-SEIP\Desktop\3.2 lab\SD\offline\Offline1\Offline1\bin\Debug\netcoreapp3.1\Offline1.deps.json
+C:\Users\EDC-SEIP\Desktop\3.2 lab\SD\offline\Offline1\Offline1\bin\Debug\netcoreapp3.1\Offline1.runtimeconfig.json
+C:\Users\EDC-SEIP\Desktop\3.2 lab\SD\offline\Offline1\Offline1\bin\Debug\netcoreapp3.1\Offline1.runtimeconfig.dev.json
+C:\Users\EDC-SEIP\Desktop\3.2 lab\SD\offline\Offline1\Offline1\bin\Debug\netcoreapp3.1\Offline1.dll
+C:\Users\EDC-SEIP\Desktop\3.2 lab\SD\offline\Offline1\Offline1\bin\Debug\netcoreapp3.1\Offline1.pdb
+C:\Users\EDC-SEIP\Desktop\3.2 lab\SD\offline\Offline1\Offline1\bin\Debug\netcoreapp3.1\DocumentFormat.OpenXml.dll
+C:\Users\EDC-SEIP\Desktop\3.2 lab\SD\offline\Offline1\Offline1\bin\Debug\netcoreapp3.1\System.IO.Packaging.dll
+C:\Users\EDC-SEIP\Desktop\3.2 lab\SD\offline\Offline1\Offline1\obj\Debug\netcoreapp3.1\Offline1.csprojAssemblyReference.cache
+C:\Users\EDC-SEIP\Desktop\3.2 lab\SD\offline\Offline1\Offline1\obj\Debug\netcoreapp3.1\Offline1.AssemblyInfoInputs.cache
+C:\Users\EDC-SEIP\Desktop\3.2 lab\SD\offline\Offline1\Offline1\obj\Debug\netcoreapp3.1\Offline1.AssemblyInfo.cs
+C:\Users\EDC-SEIP\Desktop\3.2 lab\SD\offline\Offline1\Offline1\obj\Debug\netcoreapp3.1\Offline1.csproj.CoreCompileInputs.cache
+C:\Users\EDC-SEIP\Desktop\3.2 lab\SD\offline\Offline1\Offline1\obj\Debug\netcoreapp3.1\Offline1.csproj.CopyComplete
+C:\Users\EDC-SEIP\Desktop\3.2 lab\SD\offline\Offline1\Offline1\obj\Debug\netcoreapp3.1\Offline1.dll
+C:\Users\EDC-SEIP\Desktop\3.2 lab\SD\offline\Offline1\Offline1\obj\Debug\netcoreapp3.1\Offline1.pdb
+C:\Users\EDC-SEIP\Desktop\3.2 lab\SD\offline\Offline1\Offline1\obj\Debug\netcoreapp3.1\Offline1.genruntimeconfig.cache

@@ -1,0 +1,23 @@
+﻿@model GraveBooking.Models.ViewModel
+@{
+    ViewBag.Title = "OwnerInfoIntermediate";
+}
+@Styles.Render("~/Content/css/profile")
+
+<div class="col-12">
+   
+   
+        <h1>Choose Plot no:</h1>
+       
+            <div class="container d-flex justify-content-center flex-wrap">
+                @foreach (var pn in Model.Temps)
+                {
+                    <a class="btn-lg btn-outline-danger m-5 btn" href="@Url.Action("updatePlotNo", "viewGrave",new { id = @pn.PlotNo})">@pn.PlotNo</a>
+
+                }
+            </div>
+       
+   
+   
+</div>
+

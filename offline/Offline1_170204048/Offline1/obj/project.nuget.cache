@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "IxfzlejU+Fq8e7tg66t+Hphp6HAMDiaI9Dd032tVE9unB1/z7oeUy5SbShQpLfOSMwYcagxFS48WrY0tghDGBg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\EDC-SEIP\\Desktop\\3.2 lab\\SD\\offline\\Offline1\\Offline1\\Offline1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\EDC-SEIP\\.nuget\\packages\\documentformat.openxml\\2.12.1\\documentformat.openxml.2.12.1.nupkg.sha512",
+    "C:\\Users\\EDC-SEIP\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
